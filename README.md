@@ -69,6 +69,13 @@ In your Template, you can use it like this:
 {% endfor %}
 ```
 
+## Run Sample App
+- Create virtualenv ``virtualenv -p $(which python3.6) env3`` -- Python 3.6
+- Activate virtualenv ``source env3/bin/activate``
+- Install Dependency``pip install -r requirements.txt``
+- Migrate ``cd sample-app && python manage.py migrate``
+- Run Django Sample-app ``python manage.py runserver``
+
 ## Maintainers
 - [@vivekparat](https://github.com/vivekparat)
 - [@vkmrishad](https://github.com/vkmrishad)
