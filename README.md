@@ -51,7 +51,7 @@ from django import forms
 
 from gradient_colorfield.fields import GradientColorWidget
 
-class AppForm(forms.ModelForm):
+class AppForm(forms.Form):
     header_background = forms.CharField(label='Header Background', max_length=20, widget=GradientColorWidget(),
                                         initial='linear-gradient(to bottom, #00f260 0%, #0575e6 100%)',
                                        )
