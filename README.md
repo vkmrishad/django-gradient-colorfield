@@ -75,9 +75,3 @@ In your Template, you can use it like this:
 - Install Dependency``pip install -r requirements.txt``
 - Migrate ``cd sample-app && python manage.py migrate``
 - Run Django Sample-app ``python manage.py runserver``
-
-## Maintainers
-- [@vivekparat](https://github.com/vivekparat)
-- [@vkmrishad](https://github.com/vkmrishad)
-
-
